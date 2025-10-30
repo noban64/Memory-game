@@ -1,7 +1,7 @@
 # React Memory game 
 
-# Odin Project React Project
+Memory Game -- Don't pick the same character twice!
 
-Memory game -- Don't pick the same character twice!
-
-- Using public Pokemon API to call characters + info.
+# Dependencies 
+* React 
+* Pokèmon Public Access API (To randomise characters + pull info).
