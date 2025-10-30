@@ -100,9 +100,12 @@ function Game() {
   return (
     <>
       <div>
-        <button>Score: {score}</button>
-        <br />
-        <button> Highscore: {highScore}</button>
+        <h1>Pokèmon Memory Game!</h1>
+        <h2>Try to remember which cards you clicked!</h2>
+        <div id="score-container">
+          <button id>Score: {score}</button>
+          <button> Highscore: {highScore}</button>
+        </div>
       </div>
 
       <div id="cards">

@@ -1,16 +1,24 @@
 #cards {
   display: flex;
-
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 200px;
+  height: 200px;
+  margin: 5%;
+  /* background-color: #d3d3d3; */
+  background-color: #646262;
+
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  margin: 5%;
-  background-color: #d3d3d3;
 }
 .card:hover {
   transform: scale(1.2);
@@ -20,7 +28,6 @@
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  height: 200px;
-  width: 200px;
-  width: auto;
+  height: 150px;
+  max-width: 150px;
 }
