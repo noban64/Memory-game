@@ -10,10 +10,10 @@
   justify-content: center;
   flex-direction: column;
 
-  width: 200px;
-  height: 200px;
-  margin: 5%;
-  /* background-color: #d3d3d3; */
+  width: 150px;
+  height: 150px;
+  margin: 1%;
+  padding: 5%; 
   background-color: #646262;
 
   -webkit-border-radius: 5px;
@@ -21,7 +21,9 @@
   border-radius: 5px;
 }
 .card:hover {
-  transform: scale(1.2);
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.1 fade-in-out;
 }
 
 .card > img {
